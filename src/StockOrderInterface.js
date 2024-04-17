@@ -11,15 +11,17 @@ function StockOrderInterface() {
     { id: 5, name: 'Belt', quantity: 3, price: 3, image: 'data:image/jpeg;base64,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' },
   
   ]);
-  const audio = new Audio("/audio.m4a")
 
+  const [cartItems, setCartItems] = useState([]);
   const [cartItemsCount, setCartItemsCount] = useState(0);
+  const [showCart, setShowCart] = useState(false);
 
   const addToCart = (itemId) => {
     setItems(prevItems => {
       const updatedItems = prevItems.map(item => {
         if (item.id === itemId && item.quantity > 0) {
           setCartItemsCount(prevCount => prevCount + 1);
+          setCartItems(prevCartItems => [...prevCartItems, item]); // Add item to cart
           return { ...item, quantity: item.quantity - 1 };
         }
         return item;
@@ -27,7 +29,6 @@ function StockOrderInterface() {
       console.log(`Item ${itemId} added to cart`);
       return updatedItems;
     });
-    audio.play();
   };
 
   return (
@@ -47,10 +48,20 @@ function StockOrderInterface() {
           </div>
         ))}
       </div>
-      <div className="cart-icon">
-      <Cart/>
-  <span className="cart-count">{cartItemsCount}</span>
-</div>
+      <div className="cart-icon" onClick={() => setShowCart(!showCart)}>
+        <Cart/>
+        <span className="cart-count">{cartItemsCount}</span>
+      </div>
+      {showCart && (
+        <div className="cart-items">
+          <h2>Items in Cart</h2>
+          <ul>
+            {cartItems.map(cartItem => (
+              <li key={cartItem.id}>{cartItem.name}</li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
